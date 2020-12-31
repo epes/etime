@@ -1,4 +1,4 @@
-package eticker
+package etime
 
 import "time"
 

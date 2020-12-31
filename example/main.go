@@ -5,7 +5,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/epes/eticker"
+	"github.com/epes/etime"
 )
 
 func main() {
@@ -23,5 +23,5 @@ func main() {
 		return res
 	}
 
-	eticker.NewHotColdTicker(5*time.Second, 1*time.Second, 5, fn)
+	etime.NewHotColdTicker(5*time.Second, 1*time.Second, 5, fn)
 }
